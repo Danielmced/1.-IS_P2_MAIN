@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gt.edu.umg.ingenieria.sistemas.ingenieria_software.parcial2.controller;
+package repair.gt.edu.umg.ingenieria_software.parcial2.controller;
 
-import gt.edu.umg.ingenieria.sistemas.ingenieria_software.parcial2.service.WordListService;
+import repair.gt.edu.umg.ingenieria_software.parcial2.service.WordListService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

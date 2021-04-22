@@ -8,7 +8,7 @@
         <version>2.4.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>gt.edu.umg.ingenieria.sistemas.ingenieria_software</groupId>
+    <groupId>gt.edu.umg.ingenieria_software</groupId>
     <artifactId>parcial2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>parcial2</name>

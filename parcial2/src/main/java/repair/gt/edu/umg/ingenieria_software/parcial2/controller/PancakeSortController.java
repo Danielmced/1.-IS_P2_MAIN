@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gt.edu.umg.ingenieria.sistemas.ingenieria_software.parcial2.controller;
+package repair.gt.edu.umg.ingenieria_software.parcial2.controller;
 
-import gt.edu.umg.ingenieria.sistemas.ingenieria_software.parcial2.service.WordListService;
+import repair.gt.edu.umg.ingenieria_software.parcial2.service.WordListService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,14 +16,14 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @author Danielmced
  */
 @Controller
-public class BubbleSortController {
+public class PancakeSortController {
     
     @Autowired
     private WordListService wordList;
     
-    @GetMapping("/bubble")
+    @GetMapping("/pancake")
     @ResponseBody
-    public String viewBubbleSort(){
+    public String viewPancakeSort(){
         return "pendiente";
     }
 }

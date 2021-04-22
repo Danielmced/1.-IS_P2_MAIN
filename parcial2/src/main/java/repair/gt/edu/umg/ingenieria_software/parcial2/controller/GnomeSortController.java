@@ -3,27 +3,33 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gt.edu.umg.ingenieria.sistemas.ingenieria_software.parcial2.controller;
+package repair.gt.edu.umg.ingenieria_software.parcial2.controller;
 
-import gt.edu.umg.ingenieria.sistemas.ingenieria_software.parcial2.service.WordListService;
+import repair.gt.edu.umg.ingenieria_software.parcial2.service.WordListService;
+import java.util.Arrays;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import gt.edu.umg.ingenieria.sistemas.ingenieria_software.parcial2.service.GnomeSortService;
 
 /**
  *
  * @author Danielmced
  */
 @Controller
-public class MergeSortController {
+public class GnomeSortController {
+    
     
     @Autowired
     private WordListService wordList;
     
-    @GetMapping("/merge")
+    @Autowired
+    private GnomeSortService gnome;
+    
+    @GetMapping("/gnome")
     @ResponseBody
-    public String viewMergeSort(){
-        return "pendiente";
+    public String viewGnomeSort(){
+        return Arrays.toString(gnome.gnomeSort(wordList.getWordList()));        
     }
 }

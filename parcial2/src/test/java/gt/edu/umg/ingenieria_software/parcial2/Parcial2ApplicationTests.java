@@ -1,4 +1,4 @@
-package gt.edu.umg.ingenieria.sistemas.ingenieria_software.parcial2;
+package gt.edu.umg.ingenieria_software.parcial2;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

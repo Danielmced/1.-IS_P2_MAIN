@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gt.edu.umg.ingenieria.sistemas.ingenieria_software.parcial2.service;
+package repair.gt.edu.umg.ingenieria_software.parcial2.service;
 
 import org.springframework.stereotype.Service;
 

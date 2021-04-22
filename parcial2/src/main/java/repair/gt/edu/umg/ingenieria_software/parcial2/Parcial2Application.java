@@ -1,4 +1,4 @@
-package gt.edu.umg.ingenieria.sistemas.ingenieria_software.parcial2;
+package repair.gt.edu.umg.ingenieria_software.parcial2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

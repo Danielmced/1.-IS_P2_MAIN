@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gt.edu.umg.ingenieria.sistemas.ingenieria_software.parcial2.controller;
+package repair.gt.edu.umg.ingenieria_software.parcial2.controller;
 
 
 import org.springframework.stereotype.Controller;
